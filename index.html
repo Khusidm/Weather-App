@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/010025e1c4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" name="" class="search-bar" placeholder="Search City">
+            <button class="button"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="weather loading">
+            <h2 class="city">Weather in Bhubaneswar</h2>
+            <h2 class="temp">30°C</h2>
+            <div class="details">
+            <div class="flex">
+                <div class="description">Rainy</div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="icon"/>
+            </div> 
+            <div class="humidity">Humidity: 60%</div>
+            <div class="pressure">Pressure: 120</div>
+            <div class="wind">Wind speed: 30 km/h</div>
+        </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
